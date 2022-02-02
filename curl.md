@@ -9,3 +9,7 @@ curl --request POST http://google.com
 
 ## passing params 
 curl --header "Content-Type: application/json" --request POST --data '{"author": "james", "title":"book"}' http://google.com -v
+
+# Delete request
+curl --header "Content-Type: application/json" --request DELETE http://google.com/:id -v
+
